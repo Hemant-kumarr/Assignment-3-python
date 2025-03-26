@@ -3,8 +3,6 @@ import numpy as np
 # User data: Names and Initial Balances
 users = ['Hemant', 'Prajval', 'Badal']
 balances = np.array([5000, 7000, 6000])  # Initial balance for each user
-
-# Function to get the user index
 def get_user_index(name):
     if name in users:
         return users.index(name)
